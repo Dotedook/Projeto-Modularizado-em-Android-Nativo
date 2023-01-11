@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">buscar-pokemon</string>
+    <string name="buscar_pokemon">Buscar Pokemon</string>
+    <string name="textview">TextView</string>
+    <string name="voltar">Voltar</string>
+    <string name="todo">TODO</string>
+    <string name="salvar_pokemon">Salvar Pokemon</string>
+</resources>

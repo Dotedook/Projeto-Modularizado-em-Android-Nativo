@@ -1,0 +1,8 @@
+<resources>
+    <string name="clear_cache">Limpar cache</string>
+    <string name="search_pokemon">Ver pokemon salvo</string>
+    <string name="pokemon_description">Imagem pokemon</string>
+    <string name="search_button">Buscar pokemon</string>
+    <string name="exit">Sair</string>
+    <string name="home_description">Estamos em uma nova activity.Mas o desenho dentro dela é um fragment que pode ser trocado por outro ao ir buscar um pokemon</string>
+</resources>

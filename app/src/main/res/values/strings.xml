@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Modularização Android</string>
+    <string name="presentation">Olá, este é um app modularizado em flutter!</string>
+    <string name="description">Para começar a usar, faça o login!</string>
+    <string name="user_input_label">Usuário</string>
+    <string name="password_input_label">Senha</string>
+    <string name="login_button_label">Entrar</string>
+    <string name="first_description">Esta tela é uma activity, ao logar você irá ser redirecionado para outra activity</string>
+</resources>
