@@ -14,8 +14,9 @@ dependencyResolutionManagement {
 }
 rootProject.name = "ModularizacaoAndroid"
 include ':app'
-include ':internal_storage'
-include ':pokemon_storage'
-include ':home'
-include ':pokemon'
-include ':navigation'
+include ':InternalData'
+include ':PokemonData'
+include ':FeatureLogin'
+include ':FeatureHome'
+include ':FeaturePokemon'
+include ':Navigation'
