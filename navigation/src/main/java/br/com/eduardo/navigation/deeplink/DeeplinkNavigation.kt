@@ -4,7 +4,6 @@ import android.annotation.SuppressLint
 
 
 class DeeplinkNavigation{
-
     companion object {
         @SuppressLint("StaticFieldLeak")
         private var instance: DeeplinkNavigation? = null

@@ -24,6 +24,7 @@ class HomeFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_home, container, false)
         val activity: HomeActivity? = activity as HomeActivity?
 
+
         val title =  view.findViewById<TextView>(R.id.title)
         title.text = "Olá ${activity?.userName!!.capitalize()}, esta é a Home!"
 
@@ -49,7 +50,8 @@ class HomeFragment : Fragment() {
 
 
         exitButton.setOnClickListener {
-            DeeplinkNavigation.navigate("modularizado://br.com.eduardo/main")
+            activity.finishActivity()
+            //DeeplinkNavigation.navigate("modularizado://br.com.eduardo/main")
         }
 
         return view

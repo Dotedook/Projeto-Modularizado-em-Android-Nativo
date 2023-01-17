@@ -26,6 +26,7 @@ class PokemonFragment : Fragment() {
         val backButton = view.findViewById<Button>(R.id.back_button)
         val image = view.findViewById<ImageView>(R.id.imageView)
 
+
         var pokemonUri : Uri? = null
 
         searchButton.setOnClickListener {

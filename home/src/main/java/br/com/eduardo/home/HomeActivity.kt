@@ -19,12 +19,17 @@ class HomeActivity : AppCompatActivity() {
 
     var userName: String? = null
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
         userName = intent?.getStringExtra("name")
 
+    }
+
+    fun finishActivity() {
+        finish()
     }
 
 
