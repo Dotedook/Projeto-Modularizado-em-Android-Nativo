@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
-import androidx.core.content.ContentProviderCompat.requireContext
 import br.com.eduardo.featurepokemon.PokemonRouter
 import br.com.eduardo.internal_storage.SharedData
 import br.com.eduardo.pokemon_storage.PokemonDatabase
@@ -14,7 +13,6 @@ class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
-
 
         val clearButton = findViewById<Button>(R.id.clearButton)
         val searchButton = findViewById<Button>(R.id.searchButton)

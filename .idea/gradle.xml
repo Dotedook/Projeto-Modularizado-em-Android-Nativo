@@ -10,13 +10,15 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/FeatureHome" />
-            <option value="$PROJECT_DIR$/FeatureLogin" />
-            <option value="$PROJECT_DIR$/FeaturePokemon" />
-            <option value="$PROJECT_DIR$/InternalData" />
             <option value="$PROJECT_DIR$/Navigation" />
-            <option value="$PROJECT_DIR$/PokemonData" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/data" />
+            <option value="$PROJECT_DIR$/data/internal" />
+            <option value="$PROJECT_DIR$/data/pokemon" />
+            <option value="$PROJECT_DIR$/feature" />
+            <option value="$PROJECT_DIR$/feature/home" />
+            <option value="$PROJECT_DIR$/feature/login" />
+            <option value="$PROJECT_DIR$/feature/pokemon" />
           </set>
         </option>
       </GradleProjectSettings>
